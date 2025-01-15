@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=FTC Scoring Display
+Exec=python3 /home/pi/ftc-scoring-display.py
+Type=Application
