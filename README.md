@@ -20,11 +20,12 @@ This repository comes with a few assumptions:
 Given all of this, you can run `setup.sh` to get all of the files arranged correctly.
 (Change all mentions of the path `/home/pi` if your user is named differently.)
 
-The setup script installs two files:
+The setup script installs a program and two files:
 
-1. `/home/pi/ftc-scoring-display.py`, the script that does the actual work.
+1. `xdotool`, a program for emulating mouse clicks (to enable audio for the game sounds)
+2. `/home/pi/ftc-scoring-display.py`, the script that does the actual work.
   **Note**: There are required changes in this file!
-2. `/home/pi/.config/autostart/ftc-scoring-display.desktop`, the configuration that runs the script once the user logs in.
+3. `/home/pi/.config/autostart/ftc-scoring-display.desktop`, the configuration that runs the script once the user logs in.
 
 By their powers combined, Chromium will start automatically on login and show a field display for the currently-active event in FTC Live.
 

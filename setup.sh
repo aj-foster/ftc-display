@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install --yes xdotool
+
 cp ftc-scoring-display.py /home/pi/ftc-scoring-display.py
 chmod +x /home/pi/ftc-scoring-display.py
 
